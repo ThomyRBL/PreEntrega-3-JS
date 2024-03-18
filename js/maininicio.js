@@ -10,4 +10,4 @@ function cambiarFondo(fondos) {
     mainInicio.setAttribute("src", `../img/${fondos[aleatorio]}`);
 }
 
-window.onload = cambiarFondo(fondos)
+window.onload = cambiarFondo(fondos);
