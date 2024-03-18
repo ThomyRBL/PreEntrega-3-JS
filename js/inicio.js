@@ -18,7 +18,7 @@ function inicioSesion(user) {
         return usuario.usuario == usuarioDos.value && usuario.contrasena == contrasenaDos.value;
     })
 
-    usuarioEncontrado ? location.href = "./carrito.html" : document.querySelector('#usuarioNoEncontrado').innerHTML = "Usuario no encontrado";
+    usuarioEncontrado ? location.href = "../html/carrito.html" : document.querySelector('#usuarioNoEncontrado').innerHTML = "Usuario no encontrado";
 
 }
 
